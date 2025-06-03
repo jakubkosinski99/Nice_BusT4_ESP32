@@ -67,8 +67,8 @@ using namespace esphome::cover;
 //using esp8266::timeoutTemplate::oneShotMs;
 
 
-static const int _UART_NO=GPIO_NUM_1; /* uart number */
-//static const int _UART_NO=UART_NUM_1;
+static const int _UART_NO=1; /* uart number */
+//static const int _UART_NO=UART_NUM_2;
 static const int TX_PIN = 17;           /* pin Tx */
 static const int RX_PIN = 5;           /* pin Rx */
 static const uint32_t BAUD_BREAK = 9200; /* baudrate for a long pulse before the packet */
