@@ -67,7 +67,7 @@ using namespace esphome::cover;
 //using esp8266::timeoutTemplate::oneShotMs;
 
 
-static const int _UART_NO=2; /* uart number */
+static const int _UART_NO=UART_NUM_2; /* uart number */
 //static const int _UART_NO=UART_NUM_2;
 static const int TX_PIN = 17;           /* pin Tx */
 static const int RX_PIN = 16;           /* pin Rx */
